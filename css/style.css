@@ -1,0 +1,72 @@
+body, html{
+	margin: 0;
+}
+
+body{
+	text-align: center;
+	margin-top: 5vh;
+	background-color: #121314;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    margin-top: -1%;
+}
+
+.imgAlbum{
+	width: 19.5%;
+}
+
+#lyrics {
+    font-size: 1.7rem;
+    margin-top: 2%;
+}
+
+.audioplayer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1C1C1F;
+  color: white;
+  padding: 2% 0;
+  font-size: 0.9rem;
+}
+
+.audioplayer div {
+  display: inline-block;
+}
+
+.audioplayer-bar {
+  width: 30%;
+  position: relative;
+  text-align: left;
+  height: 3vh;
+  margin: 0 2%;
+}
+
+.audioplayer-bar-played {
+  position: absolute;
+  top: 0;
+  background-color: #124d96;
+  height: 4vh;
+}
+
+.audioplayer-bar-loaded {
+  position: absolute;
+  top: 0;
+  height: 4vh;
+  background-color: #3E3E40;
+}
+
+.playPauseIcon{
+	margin: 0 40% -15% 0;
+}
+
+.mutedIcon{
+	margin: 0 0 -15% 40%;
+}
